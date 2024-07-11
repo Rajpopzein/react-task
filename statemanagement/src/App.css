@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  align-items: center;
+}
+.content> button{
+  margin-right: 10rem;
+  background-color: #0392f1;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 0.4rem;
+  color: #fff;
+}
+
+.content > img {
+  height: 10rem;
+  transform: rotate(180deg);
+}

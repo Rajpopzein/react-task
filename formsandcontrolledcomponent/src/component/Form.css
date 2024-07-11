@@ -1,0 +1,43 @@
+.fields {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0.7rem;
+}
+.fields > input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 0.4px 0.3px 5px 0px #00000023;
+}
+.fields > input:focus {
+  outline-color: #056be8c4 !important;
+}
+.fields > label {
+  text-align: left;
+  font-weight: 500;
+}
+
+.mainForm > form >.fields :not(:first-child){
+    margin-top: 0.6rem !important;
+}
+
+.error {
+  width: 100%;
+  margin-bottom: 0.7rem;
+  font-size: 0.7rem;
+  color: #c61a1a;
+}
+.subbtn {
+  background-color: #056be8;
+  border: none;
+  padding: 0.7rem 4rem;
+  border-radius: 1rem;
+  color: #fff;
+  
+}
+.heading{
+    width: 100%;
+    font-weight: 600;
+}

@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  justify-content: space-around;
+  background-image: url('./assets/920682314706.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainForm{
+  border-radius: 1rem;
+  padding: 1.5rem 3.5rem;
+  box-shadow: 1px 1px 9px 0.5px #00000069;
+  width: 35%;
+  background-color: #ffffff;
+
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

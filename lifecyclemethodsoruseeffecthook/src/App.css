@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+}
+.content{
+  margin-top: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counterClass{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  
+}
+.counterNumber{
+  position: absolute;
+  top: 50.5%;
+}
+.btn{
+  color: #ffffff;
+  background-color: red;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem 1rem 0rem 0rem ;
+  position: absolute;
+  top: 39%;
+}
